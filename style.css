@@ -1,0 +1,33 @@
+#background {
+  background-image: url(assets/grass.png);
+  background-color: green;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#playArea {
+  z-index: -1;
+  width:  95%;
+  height: 95%;
+  margin: 0;
+}
+
+#gameContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#startButton {
+  position: absolute;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  color: #cc0000;
+  font: 64px Optima;
+  cursor: pointer;
+  text-shadow: 1px 1px 3px black;
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Castle Defender</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <div id="imageContainer" hidden>
+      <img id="castle" src="assets/castle.png"/>
+      <img id="goblin" src="assets/goblin.png" />
+      <img id="knight" src="assets/knight.png" />
+      <img id="sword" src="assets/sword.png" />
+    </div>
+  </head>
+  <body id="background">
+    <div id="gameContainer" align="center">
+      <canvas id="playArea"></canvas>
+      <button id="startButton" onclick="waitForLoad()">Start Game</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
